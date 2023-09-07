@@ -37,9 +37,9 @@ print(f"Promedio edades Tarde: {promedioTarde}")
 print(f"Promedio edades Noche: {promedioNoche}")
 
 if promedioMañana > promedioTarde and promedioMañana > promedioNoche: 
-    print(f"\nTurno mañana tiene mayor promedio ")
+    print(f"Turno mañana tiene mayor promedio ")
 else:
     if promedioTarde > promedioNoche:
-        print ("\nTurno tarde tiene mayor promedio")
+        print ("Turno tarde tiene mayor promedio")
     else: 
-        print("\nTurno noche tiene mayor promedio")
+        print("Turno noche tiene mayor promedio")
